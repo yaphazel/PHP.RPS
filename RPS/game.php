@@ -1,5 +1,5 @@
 <?php
-if ( isset($_POST['logout']) ) {
+if (isset($_POST['logout']) ) {
     header('Location:index.php');
     return;
 }
