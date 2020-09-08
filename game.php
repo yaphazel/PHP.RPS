@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['logout']) ) {
+if ( isset($_POST['logout']) ) {
     header('Location:index.php');
     return;
 }
@@ -23,15 +23,11 @@ function check($computer, $human) {
   <head>
     <meta charset="utf-8">
     <title>HAZEL PIK YEN YAP 12a9d091 | Rock Paper Scissors</title>
-    <style media="screen">
-      pre{
-        font-family: Times;
-      }
-    </style>
+    <link rel="stylesheet" href="style2.css">
   </head>
   <body>
     <h1>Rock Paper Scissors</h1>
-    <p>Welcome : <?=htmlentities($message)?></p>
+    <h2>Welcome : <?=htmlentities($message)?></h2>
     <form class="choose" method="post">
       <select class="choose" name="choose">
         <option value="-1" selected>Select</option>
@@ -63,7 +59,8 @@ if (isset($_POST['choose'])){
           }
         }
         else {
-            print "Your Play=$names[$human] Computer Play=$names[$computer] Result=$r\n";
+            print "Result = $r\n";
+            print "Your Play = $names[$human]         Computer Play = $names[$computer]\n";
           }
       }
   else{
@@ -74,4 +71,3 @@ if (isset($_POST['choose'])){
 </pre>
   </body>
 </html>
-
