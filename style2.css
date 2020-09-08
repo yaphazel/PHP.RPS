@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap'); /*font-family: 'Alata', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap'); /*font-family: 'Titillium Web', sans-serif;*/
+
+h1{
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+h2{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+}
+body{
+    text-align: center;
+}
+p{
+  font-family: 'Titillium Web', sans-serif;
+}
+img{
+  border:solid;
+}
+input{
+  margin: 10px;
+  height: 35px;
+  width: 200px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12pt;
+}
+
+pre{
+  font-family: Arial;
+}
+
+#htmlent{
+  color:red;
+}
+
+.button{
+ border: none;
+ height: 40px;
+ background-color:#FEE12B;
+
+}
+
+/*index.php only*/
+.container{
+  min-height: 150vh;
+  margin-top: 0px;
+}
+
+/* end of index.php*/
+
+/*login.php only*/
+.form-container{
+  max-width:420px;
+  margin: auto;
+  border:solid;
+  box-shadow:10px 10px;
+  padding: 10px;
+}
+/* end of login.php*/
